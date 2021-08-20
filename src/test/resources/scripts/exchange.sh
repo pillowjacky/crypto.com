@@ -1,0 +1,1 @@
+curl -v -X POST -H 'Content-Type: application/json' -d '{"transactionType":"EXCHANGE","customerId":1,"currencyFrom":"HKD","amount":50,"currencyTo":"USD"}' http://localhost:8080/customer/1/exchange

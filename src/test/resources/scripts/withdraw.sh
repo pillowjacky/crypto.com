@@ -1,0 +1,1 @@
+curl -v -X POST -H 'Content-Type: application/json' -d '{"transactionType":"WITHDRAW","customerId":1,"currency":"HKD","amount":50}' http://localhost:8080/customer/1/withdraw

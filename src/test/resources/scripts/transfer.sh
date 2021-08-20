@@ -1,0 +1,1 @@
+curl -v -X POST -H 'Content-Type: application/json' -d '{"currency":"HKD","amount":100,"counterpartyId":2,"counterpartyCurrency":"HKD"}' http://localhost:8080/customer/1/transfer
